@@ -12,7 +12,7 @@ function getBooksBorrowedCount(books) {
 }
 
 function fiveOrLessFunction (result) {
-  result.sort((a, b) => b.count - a.count);
+  result.sort((numberA, numberB) => numberB.count - numberA.count);
   return result.slice(0,5)
 }
 
